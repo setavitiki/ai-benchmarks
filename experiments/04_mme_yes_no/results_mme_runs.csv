@@ -1,0 +1,160 @@
+Session,Model,Round,Q,Category,Question,Correct answer,Model said,Correct?,Full reply,DNS (s),TCP = round trip (s),TLS (s),Upload (s),First word (s),Total (s),Input tokens,Output tokens,Reasoning tokens,Cached tokens,Error
+2026-11-03 00:19,Llama-4 Maverick,1,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.006,0.015,0.03,0.081,1.715,1.715,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,1,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.008,0.012,0.029,0.047,1.389,1.389,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,1,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.007,0.014,0.029,0.048,1.448,1.448,1929,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,1,Q4,Count,Are there three jaguars in this image?,no,no,yes,No.,0.005,0.015,0.03,0.095,1.584,1.584,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,1,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.007,0.013,0.033,0.078,1.295,1.296,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,1,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,invalid,no,"The image shows two jaguars lying on the ground, with a fallen tree trunk visible above them. The jaguars are positioned below the tree trunk, indicating that it is indeed above them.
+
+Therefore, the answer to the question is: yes.",0.022,0.013,0.032,0.048,1.714,1.879,1934,52,,0,
+2026-11-03 00:19,Llama-4 Maverick,1,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.006,0.015,0.033,0.083,1.275,1.275,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,1,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.005,0.015,0.032,0.049,1.39,1.39,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,1,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.008,0.019,0.023,0.071,1.34,1.34,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,1,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,No.,0.004,0.02,0.029,0.046,1.176,1.176,1934,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.006,0.015,0.033,0.052,1.355,1.355,1926,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.005,0.013,0.051,0.055,0.911,0.912,1926,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.004,0.014,0.026,0.049,1.169,1.169,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q4,Count,Are there three jaguars in this image?,no,no,yes,No.,0.007,0.013,0.028,0.047,1.465,1.465,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.006,0.016,0.031,0.052,2.01,2.01,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,yes,no,Yes.,0.006,0.015,0.034,0.052,1.472,1.472,1937,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.006,0.013,0.029,0.049,1.157,1.158,1936,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.005,0.013,0.033,0.069,1.351,1.351,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.004,0.015,0.033,0.049,1.073,1.073,1930,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,2,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,No.,0.005,0.013,0.02,0.047,0.785,0.785,1933,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.007,0.013,0.027,0.048,1.436,1.437,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.007,0.016,0.032,0.054,1.288,1.288,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.006,0.014,0.03,0.053,0.975,0.976,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q4,Count,Are there three jaguars in this image?,no,no,yes,No.,0.005,0.015,0.032,0.046,1.095,1.095,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.004,0.011,0.03,0.051,1.288,1.288,1933,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,invalid,no,"To determine if the fallen tree trunk is below the jaguars in the image, let's analyze the given information:
+
+1. **Identify the elements in the image**: The image contains two jaguars and a fallen tree trunk among other elements like rocks and vegetation.
+
+2. **Locate the jaguars**: The jaguars are positioned in the lower part of the image, lying on the ground amidst some greenery.
+
+3. **Locate the fallen tree trunk**: The fallen tree trunk is visible at the top of the image.
+
+4. **Compare the positions**: By comparing the positions of the jaguars and the fallen tree trunk within the image, it's clear that the jaguars are below the fallen tree trunk.
+
+Given this analysis, the question asks if the fallen tree trunk is below the jaguars. Since the jaguars are positioned below the fallen tree trunk, the answer to whether the fallen tree trunk is below the jaguars is ""no"".
+
+Therefore, the answer is: No.",0.005,0.014,0.031,0.073,1.447,2.924,1933,205,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.005,0.016,0.03,0.045,1.521,1.521,1937,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.004,0.013,0.031,0.05,1.218,1.218,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.007,0.014,0.03,0.057,1.345,1.345,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,3,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,No.,0.005,0.015,0.033,0.053,1.346,1.346,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.01,0.015,0.031,0.046,0.965,0.965,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.029,0.02,0.032,0.076,1.339,1.339,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.004,0.017,0.032,0.07,1.223,1.223,1929,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q4,Count,Are there three jaguars in this image?,no,invalid,no,"To determine if there are three jaguars in the image, let's analyze the provided visual information.
+
+1. **Visual Inspection**: The image shows two jaguars lying down in a grassy area with a tree branch above them. 
+   
+2. **Counting Jaguars**: Upon closer inspection, it is clear that there are only two jaguars visible in the image. There is no third jaguar present.
+
+3. **Conclusion**: Based on the visual evidence, the answer to whether there are three jaguars in the image is negative.
+
+Therefore, the response to the question is: No.",0.016,0.013,0.022,0.076,1.652,2.461,1929,124,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.004,0.011,0.031,0.048,1.404,1.404,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,invalid,no,"The image shows two jaguars lying on the ground, with a fallen tree trunk above them. The jaguars are positioned below the tree trunk, which is visible at the top of the image.
+
+To determine if the fallen tree trunk is below the jaguars, we need to analyze the spatial relationship between the two.
+
+1. **Identify the jaguars' position**: The jaguars are lying on the ground, with their bodies oriented towards the right side of the image.
+2. **Locate the fallen tree trunk**: The fallen tree trunk is visible at the top of the image, above the jaguars.
+3. **Compare their positions**: Since the jaguars are on the ground and the fallen tree trunk is above them, it is clear that the fallen tree trunk is not below the jaguars.
+
+Therefore, the answer to the question is: **No**.",0.004,0.019,0.033,0.088,1.814,2.866,1931,181,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.008,0.016,0.032,0.069,1.261,1.261,1930,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.02,0.012,0.034,0.045,1.24,1.243,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.007,0.015,0.022,0.048,1.001,1.002,1929,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,4,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,"No. The animals in the image are jaguars, which are wild and potentially dangerous. It is not safe for a child to walk up and pet them.",0.003,0.013,0.03,0.073,1.628,1.628,1937,34,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.006,0.016,0.028,0.055,1.445,1.446,1929,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.02,0.013,0.03,0.075,1.406,1.406,1925,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.007,0.016,0.031,0.062,1.16,1.16,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q4,Count,Are there three jaguars in this image?,no,no,yes,No.,0.008,0.015,0.034,0.059,0.872,0.872,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.003,0.014,0.032,0.049,1.405,1.405,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,invalid,no,"The image shows two jaguars in a natural setting. The jaguars are positioned below a fallen tree trunk, which is visible at the top of the image. The tree trunk appears to be lying horizontally across the scene, and the jaguars are situated underneath it.
+
+To determine if the fallen tree trunk is below the jaguars, we need to examine their relative positions in the image.
+
+*   The jaguars are lying on the ground, surrounded by greenery.
+*   The fallen tree trunk is above the jaguars, as it is visible at the top of the image.
+
+Based on this observation, it is clear that the fallen tree trunk is not below the jaguars; instead, it is above them.
+
+Therefore, the answer to the question is: **no**.",0.006,0.016,0.028,0.061,1.66,2.45,1932,163,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.005,0.015,0.032,0.078,1.226,1.226,1934,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.004,0.015,0.026,0.076,1.648,1.649,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.006,0.014,0.03,0.076,1.055,1.056,1929,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,5,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,No.,0.004,0.014,0.029,0.056,1.483,1.484,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.006,0.013,0.03,0.055,0.694,0.695,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.007,0.015,0.036,0.051,1.355,1.355,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.02,0.017,0.029,0.051,1.239,1.239,1930,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q4,Count,Are there three jaguars in this image?,no,no,yes,No.,0.008,0.013,0.021,0.049,1.104,1.104,1930,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.008,0.015,0.027,0.051,0.957,0.958,1933,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,invalid,no,"To determine if the fallen tree trunk is below the jaguars in the image, we need to examine the image carefully.
+
+1. **Identify the jaguars and their position**: The image shows two jaguars lying on the ground. They are positioned in front of a large, fallen tree trunk.
+
+2. **Locate the fallen tree trunk**: The fallen tree trunk is visible at the top of the image. It appears to be lying horizontally across the scene.
+
+3. **Compare the positions**: By comparing the positions of the jaguars and the fallen tree trunk, we can see that the jaguars are below the fallen tree trunk.
+
+Therefore, the fallen tree trunk is above the jaguars, not below them.
+
+**Answer: No**",0.004,0.014,0.029,0.047,1.226,1.955,1932,154,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.007,0.017,0.033,0.078,1.451,1.451,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.009,0.015,0.03,0.067,0.927,0.927,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.018,0.014,0.036,0.075,1.389,1.39,1930,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,6,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,No.,0.003,0.014,0.03,0.048,1.067,1.067,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.004,0.015,0.021,0.047,0.941,0.941,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.005,0.014,0.022,0.048,0.914,0.914,1926,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.004,0.011,0.027,0.043,0.909,0.91,1930,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q4,Count,Are there three jaguars in this image?,no,no,yes,No.,0.025,0.013,0.026,0.048,0.848,0.849,1929,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.006,0.011,0.033,0.049,1.211,1.211,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,invalid,no,"The image shows two jaguars lying in the grass, with a fallen tree trunk above them. The jaguars are positioned below the tree trunk, indicating that it is indeed above them.
+
+Therefore, the answer is: yes.",0.004,0.012,0.023,0.051,1.183,1.328,1934,48,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.007,0.014,0.03,0.049,1.009,1.009,1933,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.003,0.012,0.031,0.056,1.114,1.115,1930,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.005,0.017,0.021,0.049,1.071,1.071,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,7,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,No.,0.004,0.011,0.023,0.045,1.108,1.108,1933,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.004,0.013,0.02,0.048,0.913,0.913,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.005,0.012,0.033,0.049,1.356,1.362,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.005,0.014,0.032,0.063,1.037,1.037,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q4,Count,Are there three jaguars in this image?,no,no,yes,No.,0.006,0.013,0.028,0.06,0.82,0.82,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.006,0.016,0.027,0.048,1.476,1.476,1933,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,yes,no,Yes.,0.021,0.013,0.023,0.05,0.926,0.926,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.006,0.016,0.046,0.051,0.921,0.922,1934,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.005,0.012,0.019,0.057,0.932,0.933,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.005,0.013,0.02,0.051,0.921,0.922,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,8,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,No.,0.011,0.014,0.026,0.049,1.36,1.36,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.007,0.013,0.023,0.047,0.779,0.779,1926,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.004,0.013,0.025,0.058,1.448,1.448,1926,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.018,0.021,0.033,0.052,0.75,0.75,1930,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q4,Count,Are there three jaguars in this image?,no,invalid,no,"To determine if there are three jaguars in the image, we need to examine the visual content.
+
+1. **Visual Inspection**: The image shows two jaguars lying down in a natural setting with greenery and a log above them.
+   
+2. **Counting Jaguars**: Upon closer inspection, it's clear that there are only two jaguars visible in the image. Both are facing different directions and are positioned next to each other.
+
+3. **Conclusion**: Since we can only see two jaguars in the image, the answer to whether there are three jaguars is negative.
+
+Therefore, the answer is: No.",0.006,0.015,0.031,0.051,1.722,2.735,1928,130,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.006,0.013,0.037,0.049,1.29,1.29,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,yes,no,Yes.,0.013,0.02,0.027,0.056,1.035,1.035,1933,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.007,0.016,0.029,0.082,0.9,0.9,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.006,0.015,0.033,0.051,1.28,1.281,1931,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.006,0.016,0.046,0.048,0.853,0.853,1933,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,9,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,No.,0.004,0.014,0.028,0.047,1.491,1.491,1934,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q1,Existence,Is there a jaguar in this image?,yes,yes,yes,Yes.,0.01,0.015,0.029,0.057,0.945,0.946,1927,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q2,Existence,Is there a tiger in this image?,no,no,yes,No.,0.006,0.015,0.028,0.05,1.233,1.234,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q3,Count,Are there two jaguars in this image?,yes,yes,yes,Yes.,0.004,0.016,0.03,0.044,1.06,1.06,1928,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q4,Count,Are there three jaguars in this image?,no,no,yes,No.,0.003,0.013,0.027,0.066,0.958,0.958,1929,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,yes,Yes.,0.006,0.014,0.028,0.048,1.779,1.779,1932,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,yes,no,Yes.,0.005,0.013,0.026,0.056,0.894,0.894,1935,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,yes,Yes.,0.006,0.016,0.031,0.051,1.234,1.235,1933,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,yes,No.,0.007,0.019,0.032,0.051,0.827,0.827,1934,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,yes,Yes.,0.014,0.016,0.024,0.046,1.127,1.127,1929,3,,0,
+2026-11-03 00:19,Llama-4 Maverick,10,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,yes,No.,0.006,0.014,0.027,0.051,1.026,1.026,1933,3,,0,

@@ -1,0 +1,13 @@
+Session,Model,Q,Category,Question,Correct answer,Usual answer,Accuracy %,Same answer % (consistency),Yes,No,Not yes/no,Failed,Median first word (s),Median total (s),Fastest (s),Slowest (s),Median output tokens,Median reasoning tokens,Example reply
+2026-11-03 00:19,Llama-4 Maverick,Q1,Existence,Is there a jaguar in this image?,yes,yes,100.0,100.0,10,0,0,0,0.96,0.96,0.69,1.72,3.0,,Yes.
+2026-11-03 00:19,Llama-4 Maverick,Q2,Existence,Is there a tiger in this image?,no,no,100.0,100.0,0,10,0,0,1.35,1.35,0.91,1.45,3.0,,No.
+2026-11-03 00:19,Llama-4 Maverick,Q3,Count,Are there two jaguars in this image?,yes,yes,100.0,100.0,10,0,0,0,1.11,1.11,0.75,1.45,3.0,,Yes.
+2026-11-03 00:19,Llama-4 Maverick,Q4,Count,Are there three jaguars in this image?,no,no,80.0,80.0,0,8,2,0,1.1,1.1,0.82,2.73,3.0,,No.
+2026-11-03 00:19,Llama-4 Maverick,Q5,Position,Is the fallen tree trunk above the jaguars in this image?,yes,yes,100.0,100.0,10,0,0,0,1.35,1.35,0.96,2.01,3.0,,Yes.
+2026-11-03 00:19,Llama-4 Maverick,Q6,Position,Is the fallen tree trunk below the jaguars in this image?,no,invalid,0.0,60.0,4,0,6,0,1.34,1.68,0.89,2.92,50.0,,"The image shows two jaguars lying on the ground, with a fallen tree trunk visible above them. The jaguars are positioned below the tree trunk, indicating that it is indeed above them.
+
+Therefore, the answer to the question is: yes."
+2026-11-03 00:19,Llama-4 Maverick,Q7,Color,Is the jaguars' fur mainly golden-yellow in this image?,yes,yes,100.0,100.0,10,0,0,0,1.23,1.23,0.9,1.52,3.0,,Yes.
+2026-11-03 00:19,Llama-4 Maverick,Q8,Color,Is the jaguars' fur mainly grey in this image?,no,no,100.0,100.0,0,10,0,0,1.23,1.23,0.83,1.65,3.0,,No.
+2026-11-03 00:19,Llama-4 Maverick,Q9,Commonsense reasoning,Should a visitor keep a safe distance from these animals?,yes,yes,100.0,100.0,10,0,0,0,1.07,1.07,0.85,1.39,3.0,,Yes.
+2026-11-03 00:19,Llama-4 Maverick,Q10,Commonsense reasoning,Is it safe for a child to walk up and pet these animals?,no,no,100.0,100.0,0,10,0,0,1.26,1.26,0.79,1.63,3.0,,No.

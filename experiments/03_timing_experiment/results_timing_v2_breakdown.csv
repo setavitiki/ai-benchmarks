@@ -1,0 +1,18 @@
+Session,Model,Image,Prompt,Stage,What it covers,Value,Unit,Type,Spread / note
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,Connection setup,find server + open connection + encryption (DNS+TCP+TLS),0.0431,s,MEASURED,0.037-0.051 s across runs
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,Network round trip,one message there and back (best TCP connect),0.009,s,MEASURED,
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,Upload of prompt + image,until the server confirmed receiving all 127 KB,0.0426,s,MEASURED,0.038-0.075 s across runs
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,1. Gathering (fixed overhead),"accept + check the request, queue, start the model; the cost of ANY request (test A)",0.3469,s,DERIVED,0.247-0.588 s across runs
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,2. Reading text,"per 1,000 tokens of text (B - A, 2049 tokens)",0.0426,s,DERIVED,0.279-1.043 s across runs
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,3. Understanding the image + prompt,preprocessing + vision encoder + reading 1920 tokens (C - A),0.4912,s,DERIVED,0.558-1.263 s across runs
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,   3a. ...of which: reading those tokens,what the same number of TEXT tokens costs,0.0803,s,DERIVED,
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,   3b. ...of which: image-only work,"preprocessing + vision encoder (3 minus 3a); rough, can be noisy",0.4109,s,DERIVED,
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,4. Writing the answer,per token (D - C over 87 extra tokens),9.0539,ms,DERIVED,= 110 tokens/s
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,   writing this answer,88 tokens,0.7877,s,DERIVED,
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,5. Giving back the result,each piece travels back while the next is written; only the last trip adds time (half a round trip),0.0045,s,DERIVED,
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,Start to finish (normal answer),test D: request start -> last token,1.7276,s,MEASURED,1.481-2.436 s across runs
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,First word appeared (normal answer),test D,1.2537,s,MEASURED,
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,Image size in tokens,"C input tokens - A input tokens, reported by the server",1886,tokens,MEASURED,
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,Server-reported timing headers,"the provider's own numbers, see Runs sheet",,,MEASURED,"x-ms-rai-invoked=true; x-ms-client-request-id=Not-Set; x-ms-inference-retry-history={""v"":1,""entries"":[{""service_id"":""mir.frontdoor"",""layer"":""regional"",""role"":""direct"",""retries"":0}]}; x-ms-is-spilled-o"
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,Queue vs actual work,waiting in line vs computing: not visible through an API,,,-,
+2026-11-02 23:43,Llama-4 Maverick,IMG_1.jpg,What big cat is this?,Preprocessing vs vision encoder,not separable through an API (both are in 3b),,,-,

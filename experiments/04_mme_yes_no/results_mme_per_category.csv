@@ -1,0 +1,6 @@
+Session,Model,Category,MME group,Questions asked,Accuracy %,Accuracy+ %,MME score (max 200),Median first word (s),Median total (s),Median output tokens,Median reasoning tokens
+2026-11-03 00:19,Llama-4 Maverick,Existence,Perception,20,100.0,100.0,200.0,1.31,1.31,3.0,
+2026-11-03 00:19,Llama-4 Maverick,Count,Perception,20,90.0,80.0,170.0,1.1,1.1,3.0,
+2026-11-03 00:19,Llama-4 Maverick,Position,Perception,20,50.0,0.0,50.0,1.35,1.4,3.0,
+2026-11-03 00:19,Llama-4 Maverick,Color,Perception,20,100.0,100.0,200.0,1.23,1.23,3.0,
+2026-11-03 00:19,Llama-4 Maverick,Commonsense reasoning,Cognition,20,100.0,100.0,200.0,1.12,1.12,3.0,
