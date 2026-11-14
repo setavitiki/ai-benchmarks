@@ -16,6 +16,7 @@ same photos, and record every answer and its time.
 | 06 | [Twenty-four questions](experiments/06_twenty_four_questions) | 24 questions in 16 categories, 25 rounds, plus a first YOLO test |
 | 07 | [AI models vs YOLO](experiments/07_ai_models_vs_yolo) | **Main result**: the 24 questions for six AI models and YOLOE |
 | 08 | [YOLO tools](experiments/08_yolo_tools) | **Main result**: the 24 questions for four pre-trained YOLO tools |
+| 09 | [Locate objects](experiments/09_locate_objects) | Pointing: AI models and YOLO give pixel coordinates, scored against reference boxes |
 
 ## What we found
 
@@ -24,6 +25,8 @@ same photos, and record every answer and its time.
   describing things that aren't there, like a collar.
 - YOLO needs only 8 to 140 milliseconds per photo, but answers just the few questions about objects it was
   trained to find. Tools trained on photos that include jaguars recognised them; the others said "cat" or "tiger".
+- Asked to point (experiment 09), the models found whole jaguars easily, but only GPT-5.4 could point to an
+  eye or a nose. Most models pointed at the jaguars when asked for a leopard.
 
 ## Layout
 
@@ -46,5 +49,5 @@ saved in a `patriot_api_config.json` next to the script (kept out of Git) and th
 
 ## Adding an experiment
 
-Give it the next number (`09_name`), read photos from `test_images/`, add a README, and when it's finished
-tag it: `git tag 09-final && git push --tags`.
+Give it the next number (`10_name`), read photos from `test_images/`, add a README, and when it's finished
+tag it: `git tag 10-final && git push --tags`.
